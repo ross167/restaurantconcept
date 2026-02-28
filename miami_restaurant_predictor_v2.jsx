@@ -307,7 +307,7 @@ function MallInfoCard({ locationType }) {
 }
 
 // ── Main App ──────────────────────────────────────────────────────────────────
-export default function App() {
+function MiamiRestaurantPredictorV2() {
   const [step, setStep] = useState(0);
   const [formData, setFormData] = useState({});
   const [loading, setLoading] = useState(false);
