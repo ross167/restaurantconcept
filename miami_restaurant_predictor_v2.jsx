@@ -1,7 +1,5 @@
 const { useState, useEffect, useMemo, useRef } = React;
 
-import { useState, useEffect, useRef } from "react";
-
 const MIAMI_CONTEXT = `
 You are an expert restaurant market analyst specialising in Miami-Dade County. You have access to the following proprietary market data from a comprehensive 2022–2024 analysis:
 
