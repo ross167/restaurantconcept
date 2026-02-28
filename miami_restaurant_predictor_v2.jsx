@@ -523,3 +523,10 @@ Apply the mall vs street survival adjustment carefully. For football/sports conc
     </div>
   );
 }
+// Mount component when running standalone in browser
+const rootElement = document.getElementById("root");
+
+if (rootElement) {
+  const root = ReactDOM.createRoot(rootElement);
+  root.render(<MiamiRestaurantPredictorV2 />);
+}
