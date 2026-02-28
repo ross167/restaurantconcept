@@ -1,3 +1,5 @@
+const { useState, useEffect, useMemo, useRef } = React;
+
 import { useState, useEffect, useRef } from "react";
 
 const MIAMI_CONTEXT = `
